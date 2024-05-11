@@ -57,8 +57,6 @@ def cndlstck_plot(df):
 ### GRAPHING FUNCTIONS
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-### implementing a class for cashflows 
-
 def calculate_IRR(stream): 
 	# stream is an array of the cashflows annually EOY
 	stream.reverse()
